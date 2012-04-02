@@ -9,8 +9,6 @@ A simple driver
 ```ruby
 require 'mint'
 
-include ActionView::Helpers::NumberHelper
-
 Mint::Base.username = ''
 Mint::Base.password = ''
 
